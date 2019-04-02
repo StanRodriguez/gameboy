@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.dpad,.mainbuttons{
+	border: solid;
+	position: absolute;
+	background-color: black;
+	border-radius: 10px;
+}
+#dpad_div{
+		margin-top: 110px;
+}
+#ver{
+	width: 50px;
+	height: 150px;
+	margin-left: 50px;
+
+}
+#hor{
+	margin-top: 50px;
+	width: 150px;
+	height: 50px;
+}
+#gameboy{
+	margin: 10px;
+	padding: 10px;
+	border: solid;
+	height: 625px;
+	width: 450px;
+	border-radius: 10px 10px 50px 10px;
+}
+#screen{
+	width: 440px;
+	height: 40%;
+	border: solid ;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 50px 10px;
+}
+#screen_inside{
+	margin: 20px 60px;
+	width: 70%;
+	height: 80%;
+	border: solid;
+	background-color: #556b2f;
+}
+#powerled{
+	border: solid;
+	height: 15px;
+	width: 15px;
+	margin-top: 70px;
+	margin-left: 20px;
+	border-radius: 100%;
+	position: absolute;
+	background-color: red;
+}
+.mainbuttons{
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 300px;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	background-color: magenta; 
+}
+#b{
+	margin-left: 320px;
+}
+#a{
+	margin-left: 390px;
+	margin-top: 40px;
+}
